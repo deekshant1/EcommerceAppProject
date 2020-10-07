@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="user_name">User name</string>
+    <string name="tvattempt">Number of attempts left :</string>
+    <string name="welcome_to_shopbucket">Welcome to ShopBucket!</string>
+    <string name="email_id">Email id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="reg_user_name">User Name</string>
+    <string name="new_user">New User? Sign Up Here!</string>
+</resources>
