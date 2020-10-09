@@ -9,8 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistrationActivity"></activity>
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".HomePageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePageActivity"/>
+        </activity>
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:configChanges="uiMode"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

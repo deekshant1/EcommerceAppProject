@@ -10,4 +10,18 @@
     <string name="register">Register</string>
     <string name="reg_user_name">User Name</string>
     <string name="new_user">New User? Sign Up Here!</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="remember_me">Remember Me!</string>
+    <string name="switch_summary">Turn this option on or off</string>
+    <string name="switch_title">Dark Mode</string>
+    <string name="option_on">On</string>
+    <string name="option_off">Off</string>
 </resources>
